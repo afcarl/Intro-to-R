@@ -25,9 +25,6 @@ r_loop = function(){
 }
 
 
-# call to the function with the loop
-r_loop()
-
 #r_function
 #*********************************
 r_function= function(value){
@@ -37,9 +34,6 @@ r_function= function(value){
   print("r_function")
   return(value**2)
 }
-
-squaredValue = r_function(2)
-print(squaredValue)
 
 #data_frame
 #*********************************
@@ -63,10 +57,9 @@ r_dataframe = function(list1, list2){
   
 }
 
-inputList1 = c("the", "dark", "brown", "fox")
-inputList2 = c(1,2,3,4)
 
-r_dataframe(inputList1, inputList2)
+
+
 
 #data_frame
 #*********************************
@@ -76,3 +69,17 @@ r_data_IO = function(filename){
   dataframe = read.csv(filename)
   
 }
+
+#main
+#*********************************
+# call to the loop function example
+# r_loop()
+
+# call to the function example
+squaredValue = r_function(2)
+# print(squaredValue)
+
+# call to the dataframe function example
+# inputList1 = c("the", "dark", "brown", "fox")
+# inputList2 = c(1,2,3,4)
+# r_dataframe(inputList1, inputList2)
