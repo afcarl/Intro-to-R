@@ -76,7 +76,7 @@ r_data_IO = function(filename){
 # r_loop()
 
 # call to the function example
-squaredValue = r_function(2)
+# squaredValue = r_function(2)
 # print(squaredValue)
 
 # call to the dataframe function example
